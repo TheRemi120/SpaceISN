@@ -98,8 +98,8 @@ window.geometry("1280x720+40+50")
 
 Times = font.Font(family='Times', size=16, weight='bold')
 
-Ciel=PhotoImage(file='C:/Users/remi1/Desktop/SpaceJUMP/Ciel.png')
-Fusee=PhotoImage(file='C:/Users/remi1/Desktop/SpaceJUMP/fusée2.png')
+Ciel=PhotoImage(file='Ciel.png')
+Fusee=PhotoImage(file='fusée2.png')
 #Asteroide=PhotoImage(file='C:/Users/remi1/Desktop/SpaceJUMP/Astéroïde.png')
 
 #------------- Graphique accueil --------#
@@ -111,7 +111,7 @@ Wfusee=Wplan.create_image(100,360, image=Fusee)
 
 mesImages=[]
 for i in range(24):
-    nom = "C:/Users/remi1/Desktop/SpaceJUMP/img/Astéroïde" + str(i) + ".png"
+    nom = "img/Astéroïde" + str(i) + ".png"
     mesImages.append(PhotoImage(file=nom))
 
 #---------------#

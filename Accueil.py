@@ -3,7 +3,7 @@ from tkinter import font
 import os
 
 def ChangePage():
-    os.startfile("C:/Users/remi1/PycharmProjects/SpaceJumper3000/PartieJeu.py")
+    os.startfile("E:/SpaceJumper3000/PartieJeu.py")
     window.quit()
 
 if __name__ == '__main__':
@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     Times = font.Font(family='Times', size=16, weight='bold')
 
-    Ciel=PhotoImage(file='C:/Users/remi1/Desktop/SpaceJUMP/Ciel.png')
+    Ciel=PhotoImage(file='Ciel.png')
 
     #------------- Graphique accueil --------#
 
